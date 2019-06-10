@@ -10,10 +10,3 @@ build:
 
 python:
   version: 3.7
-  install:
-    - method: pip
-      path: docs/
-      extra_requirements:
-        - docs
-    - method: setuptools
-      path: package
