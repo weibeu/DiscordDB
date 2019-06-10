@@ -30,7 +30,7 @@ if os.getenv('READTHEDOCS') == 'True':
 
 extra_requirements = {
     'docs': [
-        'sphinx==1.8.3'
+        'sphinx'
     ]
 }
 
