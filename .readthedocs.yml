@@ -11,4 +11,5 @@ build:
 python:
   version: 3.7
   install:
-    - extra_requirements: docs
+    - extra_requirements:
+        - docs
