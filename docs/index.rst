@@ -20,8 +20,7 @@ A simple database which uses a Discord channel to store data.
 - Makes easier to store bulk data which are generally not much important.
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
 
    introduction
    api
