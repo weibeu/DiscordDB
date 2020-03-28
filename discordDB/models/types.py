@@ -9,6 +9,9 @@ class Data(dict):
 
     """
 
+    def __setattr__(self, key, value):
+        self[key] = value
+
     def __getattribute__(self, item):
         try:
             data = self[str(item)]
