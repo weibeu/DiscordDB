@@ -63,4 +63,6 @@ class DiscordDB(object):
         """
         message = await self.channel.fetch_message(_id)
         _data = message.embeds[0].to_dict()["fields"]
-        return Data({_["name"]: _["value"] for _ in _data})
+        data = Data({_["name"]: _["value"] for _ in _data})
+        data.created_at = message.created_at
+        return data
