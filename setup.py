@@ -19,7 +19,7 @@ def __get_version():
 
 
 requirements = [
-    "discord.py",
+    "python-discord",
 ]
 
 
